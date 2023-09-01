@@ -1,0 +1,17 @@
+*{
+    background-color: antiquewhite;
+
+}
+.card{
+    justify-content: center;
+    align-items: center;
+   height: 300px;
+   width: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: right;
+}
+ .img{
+   display: flex;
+   float: left;
+}

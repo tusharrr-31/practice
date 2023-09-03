@@ -1,17 +1,17 @@
-*{
-    background-color: antiquewhite;
-
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
 }
-.card{
-    justify-content: center;
-    align-items: center;
-   height: 300px;
-   width: 500px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    float: right;
+.box{
+    border: 2px solid green;
+    background-color: gold;
 }
- .img{
-   display: flex;
-   float: left;
+#box1{
+     grid-row-start: 1;
+    grid-row-start:4 ;
 }

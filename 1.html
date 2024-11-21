@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="demo2" onclick="Hide()">Hello</button>
+    <p id="demo">this is good buttons</p>
+    <script>
+        function Hide (){
+            var x;
+            x = document.getElementById("demo");
+            if(x.style.display==="block"){
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+    
+</body>
+</html>
